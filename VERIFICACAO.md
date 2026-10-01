@@ -1,0 +1,348 @@
+# Verificações — etapa 1 de animações 2D
+
+324 verificações passaram. Consulte ETAPA-1-ANIMACOES.md para escopo, limites e arquivos alterados.
+
+## Entrada, filtros e preferência dinâmica (6)
+
+- Hero com entradas entre 200 e 800 ms
+- TÃ­tulo, descriÃ§Ã£o e aÃ§Ãµes entram em sequÃªncia
+- MudanÃ§a de preferÃªncia revela e finaliza todas as entradas
+- Retornar Ã  preferÃªncia normal nÃ£o repete o hero
+- Troca de categoria tem uma Ãºnica transiÃ§Ã£o curta
+- Reduced motion cancela tambÃ©m transiÃ§Ã£o da galeria em curso
+
+## Interface em 320, 390, 768 e 1440 px (130)
+
+- 320px: sem overflow no hero
+- 320px: menu dentro do viewport
+- 320px: menu abre
+- 320px: Escape fecha menu
+- 320px: blocos de experiÃªncia revelados
+- 320px: experiÃªncia com cascata discreta
+- 320px: hover da foto nÃ£o muda layout
+- 320px: filtro recanto sem itens ocultos ocupando espaÃ§o
+- 320px: grid recomposto sem lacunas de itens ocultos
+- 320px: filtro mesa sem itens ocultos ocupando espaÃ§o
+- 320px: grid recomposto sem lacunas de itens ocultos
+- 320px: filtro ambiente sem itens ocultos ocupando espaÃ§o
+- 320px: grid recomposto sem lacunas de itens ocultos
+- 320px: filtro peruacu sem itens ocultos ocupando espaÃ§o
+- 320px: grid recomposto sem lacunas de itens ocultos
+- 320px: filtro todos sem itens ocultos ocupando espaÃ§o
+- 320px: grid recomposto sem lacunas de itens ocultos
+- 320px: lightbox respeita grupo filtrado
+- 320px: setas do lightbox funcionam
+- 320px: foco restaurado apÃ³s lightbox
+- 320px: foco de teclado visÃ­vel
+- 320px: teclado navega nos relatos
+- 320px: seta anterior funciona
+- 320px: botÃ£o pausa preservado
+- 320px: cartÃ£o focado nÃ£o fica invisÃ­vel
+- 320px: crÃ©ditos abrem
+- 320px: pÃ¡gina inteira sem overflow
+- 320px: imagens carregadas
+- 320px: entradas nÃ£o repetem ao retornar (hover pode continuar)
+- 320px: reduced motion mantÃ©m conteÃºdo visÃ­vel
+- 320px: reduced motion pausa carrossel
+- 320px: fotografia do hero estÃ¡vel
+- 390px: sem overflow no hero
+- 390px: menu dentro do viewport
+- 390px: menu abre
+- 390px: Escape fecha menu
+- 390px: blocos de experiÃªncia revelados
+- 390px: experiÃªncia com cascata discreta
+- 390px: hover da foto nÃ£o muda layout
+- 390px: filtro recanto sem itens ocultos ocupando espaÃ§o
+- 390px: grid recomposto sem lacunas de itens ocultos
+- 390px: filtro mesa sem itens ocultos ocupando espaÃ§o
+- 390px: grid recomposto sem lacunas de itens ocultos
+- 390px: filtro ambiente sem itens ocultos ocupando espaÃ§o
+- 390px: grid recomposto sem lacunas de itens ocultos
+- 390px: filtro peruacu sem itens ocultos ocupando espaÃ§o
+- 390px: grid recomposto sem lacunas de itens ocultos
+- 390px: filtro todos sem itens ocultos ocupando espaÃ§o
+- 390px: grid recomposto sem lacunas de itens ocultos
+- 390px: lightbox respeita grupo filtrado
+- 390px: setas do lightbox funcionam
+- 390px: foco restaurado apÃ³s lightbox
+- 390px: foco de teclado visÃ­vel
+- 390px: teclado navega nos relatos
+- 390px: seta anterior funciona
+- 390px: botÃ£o pausa preservado
+- 390px: cartÃ£o focado nÃ£o fica invisÃ­vel
+- 390px: crÃ©ditos abrem
+- 390px: pÃ¡gina inteira sem overflow
+- 390px: imagens carregadas
+- 390px: entradas nÃ£o repetem ao retornar (hover pode continuar)
+- 390px: reduced motion mantÃ©m conteÃºdo visÃ­vel
+- 390px: reduced motion pausa carrossel
+- 390px: fotografia do hero estÃ¡vel
+- 768px: sem overflow no hero
+- 768px: menu dentro do viewport
+- 768px: menu abre
+- 768px: Escape fecha menu
+- 768px: blocos de experiÃªncia revelados
+- 768px: experiÃªncia com cascata discreta
+- 768px: hover da foto nÃ£o muda layout
+- 768px: filtro recanto sem itens ocultos ocupando espaÃ§o
+- 768px: grid recomposto sem lacunas de itens ocultos
+- 768px: filtro mesa sem itens ocultos ocupando espaÃ§o
+- 768px: grid recomposto sem lacunas de itens ocultos
+- 768px: filtro ambiente sem itens ocultos ocupando espaÃ§o
+- 768px: grid recomposto sem lacunas de itens ocultos
+- 768px: filtro peruacu sem itens ocultos ocupando espaÃ§o
+- 768px: grid recomposto sem lacunas de itens ocultos
+- 768px: filtro todos sem itens ocultos ocupando espaÃ§o
+- 768px: grid recomposto sem lacunas de itens ocultos
+- 768px: lightbox respeita grupo filtrado
+- 768px: setas do lightbox funcionam
+- 768px: foco restaurado apÃ³s lightbox
+- 768px: foco de teclado visÃ­vel
+- 768px: teclado navega nos relatos
+- 768px: seta anterior funciona
+- 768px: botÃ£o pausa preservado
+- 768px: cartÃ£o focado nÃ£o fica invisÃ­vel
+- 768px: crÃ©ditos abrem
+- 768px: pÃ¡gina inteira sem overflow
+- 768px: imagens carregadas
+- 768px: entradas nÃ£o repetem ao retornar (hover pode continuar)
+- 768px: reduced motion mantÃ©m conteÃºdo visÃ­vel
+- 768px: reduced motion pausa carrossel
+- 768px: fotografia do hero estÃ¡vel
+- 1440px: sem overflow no hero
+- 1440px: menu dentro do viewport
+- 1440px: blocos de experiÃªncia revelados
+- 1440px: experiÃªncia com cascata discreta
+- 1440px: hover da foto nÃ£o muda layout
+- 1440px: filtro recanto sem itens ocultos ocupando espaÃ§o
+- 1440px: grid recomposto sem lacunas de itens ocultos
+- 1440px: filtro mesa sem itens ocultos ocupando espaÃ§o
+- 1440px: grid recomposto sem lacunas de itens ocultos
+- 1440px: filtro ambiente sem itens ocultos ocupando espaÃ§o
+- 1440px: grid recomposto sem lacunas de itens ocultos
+- 1440px: filtro peruacu sem itens ocultos ocupando espaÃ§o
+- 1440px: grid recomposto sem lacunas de itens ocultos
+- 1440px: filtro todos sem itens ocultos ocupando espaÃ§o
+- 1440px: grid recomposto sem lacunas de itens ocultos
+- 1440px: lightbox respeita grupo filtrado
+- 1440px: setas do lightbox funcionam
+- 1440px: foco restaurado apÃ³s lightbox
+- 1440px: foco de teclado visÃ­vel
+- 1440px: teclado navega nos relatos
+- 1440px: seta anterior funciona
+- 1440px: botÃ£o pausa preservado
+- 1440px: cartÃ£o focado nÃ£o fica invisÃ­vel
+- 1440px: crÃ©ditos abrem
+- 1440px: pÃ¡gina inteira sem overflow
+- 1440px: imagens carregadas
+- 1440px: entradas nÃ£o repetem ao retornar (hover pode continuar)
+- 1440px: reduced motion mantÃ©m conteÃºdo visÃ­vel
+- 1440px: reduced motion pausa carrossel
+- Sem JavaScript: todas as entradas visÃ­veis
+- Sem JavaScript: oito fotografias disponÃ­veis
+- Sem JavaScript: links mantÃªm destinos
+- Sem JavaScript: CTA do hero disponÃ­vel
+- Sem erros de JavaScript ou recursos locais ausentes
+
+## Links e destinos (167)
+
+- Link com destino explÃ­cito: Pular para o conteÃºdo
+- Ã‚ncora vÃ¡lida: #conteudo
+- Link com destino explÃ­cito: â—‡ RECANTO DAS PEDRAS POUSADA & RESTAURANTE
+- Ã‚ncora vÃ¡lida: #inicio
+- Link com destino explÃ­cito: O Recanto
+- Ã‚ncora vÃ¡lida: #experiencia
+- Link com destino explÃ­cito: Hospedagem
+- Ã‚ncora vÃ¡lida: #hospedagem
+- Link com destino explÃ­cito: Gastronomia
+- Ã‚ncora vÃ¡lida: #gastronomia
+- Link com destino explÃ­cito: PeruaÃ§u
+- Ã‚ncora vÃ¡lida: #peruacu
+- Link com destino explÃ­cito: Galeria
+- Ã‚ncora vÃ¡lida: #galeria
+- Link com destino explÃ­cito: Abrir Instagram do Recanto das Pedras em nova aba
+- Destino correto: instagram / header
+- Nova aba segura e identificaÃ§Ã£o: instagram / header
+- Clique abre o destino previsto: instagram / header
+- Link com destino explÃ­cito: ConheÃ§a a pousada
+- Ã‚ncora vÃ¡lida: #hospedagem
+- Link com destino explÃ­cito: Planeje sua estadia
+- WhatsApp oficial: inicio
+- Mensagem correta: stay
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / inicio
+- Clique abre o destino previsto: whatsapp / inicio
+- Link com destino explÃ­cito: ConheÃ§a o Recanto â†˜
+- Ã‚ncora vÃ¡lida: #experiencia
+- Link com destino explÃ­cito: â†“ ENTRE. CONHEÃ‡A O RECANTO.
+- Ã‚ncora vÃ¡lida: #experiencia
+- Link com destino explÃ­cito: Conhecer o PeruaÃ§u â†’
+- Ã‚ncora vÃ¡lida: #peruacu
+- Link com destino explÃ­cito: Conhecer a hospedagem â†’
+- Ã‚ncora vÃ¡lida: #hospedagem
+- Link com destino explÃ­cito: Conhecer o restaurante â†’
+- Ã‚ncora vÃ¡lida: #gastronomia
+- Link com destino explÃ­cito: Conhecer o PeruaÃ§u â†’
+- Ã‚ncora vÃ¡lida: #peruacu
+- Link com destino explÃ­cito: Consultar disponibilidade
+- WhatsApp oficial: hospedagem
+- Mensagem correta: availability
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / hospedagem
+- Clique abre o destino previsto: whatsapp / hospedagem
+- Link com destino explÃ­cito: Falar sobre o restaurante â†’
+- WhatsApp oficial: gastronomia
+- Mensagem correta: restaurant
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / gastronomia
+- Clique abre o destino previsto: whatsapp / gastronomia
+- Link com destino explÃ­cito: Ver mais do Recanto no Instagram â†—
+- Destino correto: instagram / gastronomia
+- Nova aba segura e identificaÃ§Ã£o: instagram / gastronomia
+- Clique abre o destino previsto: instagram / gastronomia
+- Link com destino explÃ­cito: InformaÃ§Ãµes oficiais do parque â†—
+- Destino correto: park / peruacu
+- Nova aba segura e identificaÃ§Ã£o: park / peruacu
+- Clique abre o destino previsto: park / peruacu
+- Link com destino explÃ­cito: Ver Instagram â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / galeria
+- Clique abre o destino previsto: undefined / galeria
+- Link com destino explÃ­cito: Ler relatos completos no Google â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / avaliacoes
+- Clique abre o destino previsto: undefined / avaliacoes
+- Link com destino explÃ­cito: Ler relatos completos no Google â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / avaliacoes
+- Clique abre o destino previsto: undefined / avaliacoes
+- Link com destino explÃ­cito: Ler relatos completos no Google â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / avaliacoes
+- Clique abre o destino previsto: undefined / avaliacoes
+- Link com destino explÃ­cito: Ler relatos completos no Google â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / avaliacoes
+- Clique abre o destino previsto: undefined / avaliacoes
+- Link com destino explÃ­cito: Ler relatos completos no Google â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / avaliacoes
+- Clique abre o destino previsto: undefined / avaliacoes
+- Link com destino explÃ­cito: Ler relatos completos no Google â†—
+- Nova aba segura e identificaÃ§Ã£o: undefined / avaliacoes
+- Clique abre o destino previsto: undefined / avaliacoes
+- Link com destino explÃ­cito: Ver avaliaÃ§Ãµes no Google â†—
+- Destino correto: reviews / avaliacoes
+- Nova aba segura e identificaÃ§Ã£o: reviews / avaliacoes
+- Clique abre o destino previsto: reviews / avaliacoes
+- Link com destino explÃ­cito: JÃ¡ nos visitou? Avalie no Google â†—
+- Destino correto: writeReview / avaliacoes
+- Nova aba segura e identificaÃ§Ã£o: writeReview / avaliacoes
+- Clique abre o destino previsto: writeReview / avaliacoes
+- Link com destino explÃ­cito: Abrir Recanto das Pedras no mapa â†—
+- Destino correto: maps / localizacao
+- Nova aba segura e identificaÃ§Ã£o: maps / localizacao
+- Clique abre o destino previsto: maps / localizacao
+- Link com destino explÃ­cito: Receber orientaÃ§Ãµes pelo WhatsApp â†’
+- WhatsApp oficial: localizacao
+- Mensagem correta: directions
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / localizacao
+- Clique abre o destino previsto: whatsapp / localizacao
+- Link com destino explÃ­cito: Planeje sua estadia
+- WhatsApp oficial: contato
+- Mensagem correta: stay
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / contato
+- Clique abre o destino previsto: whatsapp / contato
+- Link com destino explÃ­cito: Ver no Instagram â†—
+- Destino correto: instagram / contato
+- Nova aba segura e identificaÃ§Ã£o: instagram / contato
+- Clique abre o destino previsto: instagram / contato
+- Link com destino explÃ­cito: Abrir no mapa â†—
+- Destino correto: maps / contato
+- Nova aba segura e identificaÃ§Ã£o: maps / contato
+- Clique abre o destino previsto: maps / contato
+- Link com destino explÃ­cito: â—‡ RECANTO DAS PEDRAS POUSADA & RESTAURANTE
+- Ã‚ncora vÃ¡lida: #inicio
+- Link com destino explÃ­cito: WhatsApp Â· (38) 99219-6283
+- WhatsApp oficial: footer
+- Mensagem correta: stay
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / footer
+- Clique abre o destino previsto: whatsapp / footer
+- Link com destino explÃ­cito: Instagram â†— @pousadarecantodaspedrasperuacu
+- Destino correto: instagram / footer
+- Nova aba segura e identificaÃ§Ã£o: instagram / footer
+- Clique abre o destino previsto: instagram / footer
+- Link com destino explÃ­cito: Abrir no mapa â†—
+- Destino correto: maps / footer
+- Nova aba segura e identificaÃ§Ã£o: maps / footer
+- Clique abre o destino previsto: maps / footer
+- Link com destino explÃ­cito: Ver no Google â†—
+- Destino correto: reviews / footer
+- Nova aba segura e identificaÃ§Ã£o: reviews / footer
+- Clique abre o destino previsto: reviews / footer
+- Link com destino explÃ­cito: Deixar uma avaliaÃ§Ã£o â†—
+- Destino correto: writeReview / footer
+- Nova aba segura e identificaÃ§Ã£o: writeReview / footer
+- Clique abre o destino previsto: writeReview / footer
+- Link com destino explÃ­cito: Planeje sua estadia
+- WhatsApp oficial: other
+- Mensagem correta: stay
+- Nova aba segura e identificaÃ§Ã£o: whatsapp / other
+- Clique abre o destino previsto: whatsapp / other
+- Link com destino explÃ­cito: Consultar fotografias na origem â†—
+- Link com destino explÃ­cito: Travessia do rio PeruaÃ§u na Gruta do JanelÃ£o
+- Link com destino explÃ­cito: Entrada da Gruta do JanelÃ£o
+- Link com destino explÃ­cito: CC BY-SA 4.0
+- PeruaÃ§u, galeria e avaliaÃ§Ãµes sem WhatsApp
+- Um WhatsApp por seÃ§Ã£o relevante: inicio
+- Um WhatsApp por seÃ§Ã£o relevante: hospedagem
+- Um WhatsApp por seÃ§Ã£o relevante: gastronomia
+- Um WhatsApp por seÃ§Ã£o relevante: localizacao
+- Um WhatsApp por seÃ§Ã£o relevante: contato
+- Somente um CTA persistente de WhatsApp
+- NavegaÃ§Ã£o interna funciona: #experiencia
+- NavegaÃ§Ã£o interna funciona: #hospedagem
+- NavegaÃ§Ã£o interna funciona: #gastronomia
+- NavegaÃ§Ã£o interna funciona: #peruacu
+- Galeria abre lightbox
+- Lightbox ocupa tela inteira
+- BotÃ£o prÃ³xima imagem funciona
+- BotÃ£o anterior funciona
+- Seta esquerda funciona com retorno circular
+- Seta direita funciona
+- Escape fecha a galeria
+- Foco retorna Ã  fotografia original
+- Rolagem Ã© liberada ao fechar
+- Cada fotografia abre sua imagem correta
+- Instagram explÃ­cito no menu mÃ³vel
+- 320px sem rolagem horizontal
+- 390px sem rolagem horizontal
+- 768px sem rolagem horizontal
+- 1440px sem rolagem horizontal
+- Texto a 200% sem rolagem horizontal
+- Destinos e mensagens corretos tambÃ©m sem JavaScript
+- Sem erros JavaScript
+
+## Carrossel, mapa e pausa (9)
+
+- Autoplay avanÃ§a quando a faixa estÃ¡ visÃ­vel
+- Hover pausa para leitura
+- Foco pausa para leitura
+- Teclado navega entre relatos
+- PreferÃªncia de movimento reduzido nÃ£o oferece autoplay
+- Mapa externo nÃ£o carrega antes do clique
+- Clique carrega um mapa com tÃ­tulo acessÃ­vel
+- Mapa identifica o negÃ³cio
+- Menu permanece dentro da tela a 320px
+
+## Toque (2)
+
+- Swipe com eventos de toque navega pelo carrossel mÃ³vel
+- Fundo do hero permanece estÃ¡vel no contexto mÃ³vel com toque
+
+## Preservação do projeto (5)
+
+- Textos, nomes, estrelas, notas, trechos e crÃ©ditos preservados
+- 45 links e todos os seus atributos preservados
+- Fotos, alt, srcset, sizes e dimensÃµes preservados
+- Todos os ativos, config.js, avaliacoes.json e navigation.css idÃªnticos ao ZIP original
+- Sem React, manifesto npm ou dependÃªncias novas
+
+## Layout (5)
+
+- 320px: geometria das nove seÃ§Ãµes, fotografia e grids igual ao ZIP original
+- 390px: geometria das nove seÃ§Ãµes, fotografia e grids igual ao ZIP original
+- 768px: geometria das nove seÃ§Ãµes, fotografia e grids igual ao ZIP original
+- 1440px: geometria das nove seÃ§Ãµes, fotografia e grids igual ao ZIP original
+- Entrada inicial do hero: layout shift observado igual a zero
